@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+//richiama la proprietà che si trova in _colors  
+// aggiungo lo sfondo dalla cartella img
+
+html {
+    background-color: $background-color;
+    background-image: url("../img/clouds.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $font-color;
+    @include mq(768px) {
+      font-size: 22px;
+    }
+  }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+     @include flexCenter; //richiama la proprietà flex in _mixins, cioè permette di centrare gli elementi
+    flex-direction: column;
+    padding: 0.5rem;  
+}
+
+
+// Separiamo un po' il main dal body
+main{
+    width: 100%;
+    max-width: 700px;
+    max-height: 1050px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; //per riempire l'altezza del body
+    color: $font-color;
+    background-color: $mask-color;
+    border: 1px solid $bordercolor;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2.5px $shadowcolor;
+}
+
+img{
+    display: block;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid $bordercolor;
+}
+
+// Per togliere l'icona spin (che gira e farla riapparire con js)
+.none{display: none;}
+
+.block{display: none;}

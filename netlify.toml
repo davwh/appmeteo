@@ -1,0 +1,5 @@
+# dico a netfly dove trovare la nostra serverless function
+[build]
+    publish = "dist"
+
+    functions = "serverless"

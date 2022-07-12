@@ -1,0 +1,29 @@
+@import "abstracts/colors";
+@import "abstracts/mixins";
+@import "base/base";
+@import "components/a11y";
+@import "components/buttons";
+@import "layout/searchBar";
+@import "layout/navButtons";
+@import "layout/currentForecast";
+@import "layout/dailyForecast";
+@import "themes/backgrounds";
+@import "components/intro";
+
+
+
+
+
+
+// sulla barra in basso azzurra, bisogna premere su Watch Sass
+// questo permette di associare gli stili dichiarati in _colors.scss
+// nel file main.min.css che viene generato dopo aver premuto il pulsante
+
+// questo si può fare solo se prima sono andato nelle impostazioni, in settings.json
+// e aggiunto         {
+//     "format": "compressed",
+//     "extensionName": ".min.css",
+//     "savePath": "/[01-LAVORI/APPMETEO/dist/css"
+// }
+
+// che permette di creare il file nella cartella del progetto, altrimenti avrebbe creato il file altrove

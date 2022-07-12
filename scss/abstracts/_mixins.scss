@@ -1,0 +1,30 @@
+// mixin rpermette di aggruppare un blocco di dichiarazioni che possiamo poi riutilizzare più volte nei fogli di stile. 
+// Il principale vantaggio derivato dall'uso dei mixin è la possibilità di incorporare frammenti di 
+// codice in diverse regole senza dover riscrivere ogni volta le stesse dichiarazioni in maniera ripetitiva.
+
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+// mq sta per mediaquery
+@mixin mq($size) {
+    @media only screen and (min-width: $size) {
+      @content;
+    }
+  }
+
+  @mixin mqh($size) {
+    @media only screen and (min-height: $size) {
+      @content;
+    }
+  }
+
+  @mixin mqMaxWMinH($size1, $size2) {
+    // iPad Pro w: 1024 & iPhone Plus 6/7/8 h: 736
+    @media only screen and (max-width: $size1) and (min-height: $size2) {
+      @content;
+    }
+  }
