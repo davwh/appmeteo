@@ -34,18 +34,18 @@
             }
         
 // unit lo portiamo fuori dalla concatenatura di temp - si potrebbe rimuovere...
-        .unit{
-            font-size: 10rem;
-            color: $fadecolor;
-            text-shadow: none;
-            position: absolute;
-            top: 15%;
-            left: 75%;
-            @include mq(768px){
-                left: 85%;
-            }
-        }
+.unit {
+    font-size: 1.65rem;
+    color: $fadecolor;
+    text-shadow: none;
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    @include mq(768px) {
+      left: 75%;
     }
+    }
+}
     
     .icon{
         @include flexCenter;
