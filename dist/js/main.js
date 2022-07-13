@@ -75,8 +75,7 @@ const initApp = () => {
 // ma risorse esterne come immagini <img> e i fogli di stile potrebbero ancora non essere stati caricati.
 document.addEventListener("DOMContentLoaded", initApp);
 
-// Qui faccio due cose: all'inizio sfrutto la funzione di 
-// localizzazione offerta dal pulsante creato da me e quindi
+// Qui faccio due cose: all'inizio sfrutto la funzione di localizzazione offerta dal pulsante creato da me e quindi
 // aggiungo un eventListner (dopo, in geoButton nella funzione const initApp) che deve "sentire" il click sul pusalnte. 
 // poi sfrutto anche la funzione di geolocalizzazione offerta dal browser, se le cose non vanno
 const getGeoWeather = (event) => {
