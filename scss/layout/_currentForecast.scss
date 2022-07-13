@@ -40,7 +40,7 @@
     text-shadow: none;
     position: absolute;
     top: 15%;
-    left: 50%;
+    right: 50%;
     @include mq(768px) {
       left: 75%;
     }
