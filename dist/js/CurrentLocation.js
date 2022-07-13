@@ -49,6 +49,6 @@ export default class CurrentLocation{
 
     // per switchare le unità di misura
     toggleUnit() {
-      this._unit = this._unit === "imperial" ? "metric" : "imperial";
+      this._unit = this._unit === "metric" ? "imperial" : "metric";
     }
   }
