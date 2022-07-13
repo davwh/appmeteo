@@ -38,11 +38,11 @@
     font-size: 1.65rem;
     color: $fadecolor;
     text-shadow: none;
-    position: absolute;
-    top: 20%;
-    left: 85%;
+    position:static;
+    top: 40%;
+    left: 72%;
     @include mq(768px) {
-      left: 80%;
+      left: 85%;
     }
     }
 }
