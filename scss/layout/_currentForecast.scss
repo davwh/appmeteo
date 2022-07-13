@@ -39,8 +39,8 @@
     color: $fadecolor;
     text-shadow: none;
     position: absolute;
-    top: 10%;
-    left: 85%;
+    top: 15%;
+    left: 70%;
     @include mq(768px) {
       left: 75%;
     }
