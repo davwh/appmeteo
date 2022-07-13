@@ -15,15 +15,15 @@
 
 
 
-// sulla barra in basso azzurra, bisogna premere su Watch Sass
+// Sulla barra in basso azzurra, bisogna premere su Watch Sass,
 // questo permette di associare gli stili dichiarati in _colors.scss
-// nel file main.min.css che viene generato dopo aver premuto il pulsante
+// , nel file main.min.css che viene generato dopo aver premuto il pulsante
 
-// questo si può fare solo se prima sono andato nelle impostazioni, in settings.json
-// e aggiunto         {
+// Questo si può fare solo se prima sono andato nelle impostazioni, in settings.json o JSON Schemas
+// e aggiungo       {
 //     "format": "compressed",
 //     "extensionName": ".min.css",
-//     "savePath": "/[01-LAVORI/APPMETEO/dist/css"
+//     "savePath": "/[01-LAVORI/APPMETEO/dist/css"  OPPURE savePath": "/dist/css"
 // }
 
 // che permette di creare il file nella cartella del progetto, altrimenti avrebbe creato il file altrove
